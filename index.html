@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#FAFAF7" />
+  <title>UJI — Matcha cérémonial du Japon</title>
+  <meta name="description" content="UJI, matcha cérémonial importé directement des fermes d'Uji, Japon." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader__bowl">
+      <div class="loader__fill"></div>
+    </div>
+    <p class="loader__text">UJI</p>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="header__logo">UJI</a>
+    <nav class="header__nav">
+      <a href="#origine">Origine</a>
+      <a href="#rituel">Rituel</a>
+      <a href="#produits">Matchas</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <video class="hero__video" autoplay loop muted playsinline>
+      <source src="assets/flow/plan1-poudre.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Matcha cérémonial — Uji, Japon</p>
+      <h1 class="hero__title">
+        Trois semaines<br />
+        d'<em>ombre.</em>
+      </h1>
+      <p class="hero__subtitle">Une vie de saveur.</p>
+    </div>
+    <div class="hero__scroll">
+      <span>Découvrir</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ORIGINE -->
+  <section class="section section--light" id="origine">
+    <p class="section__eyebrow">01 — L'ombrage</p>
+    <h2 class="section__title">Le secret<br />du vert.</h2>
+    <p class="section__text">
+      Trois semaines avant la récolte, les plants de thé sont couverts de filets
+      noirs. Privées de soleil, les feuilles produisent plus de chlorophylle et
+      d'acides aminés. C'est cette ombre qui donne au matcha sa couleur
+      éclatante et son goût umami profond.
+    </p>
+  </section>
+
+  <!-- RÉCOLTE -->
+  <section class="section section--cream" id="recolte">
+    <p class="section__eyebrow">02 — La récolte</p>
+    <h2 class="section__title">À la main,<br />une à une.</h2>
+    <p class="section__text">
+      Les jeunes pousses sont cueillies une par une, à l'aube, quand la rosée
+      protège encore leur fraîcheur. Chaque feuille est sélectionnée. Le geste
+      est précis, hérité de générations de producteurs.
+    </p>
+  </section>
+
+  <!-- VAPEUR -->
+  <section class="section section--light" id="vapeur">
+    <p class="section__eyebrow">03 — La vapeur</p>
+    <h2 class="section__title">L'instant<br />suspendu.</h2>
+    <p class="section__text">
+      Dans les heures qui suivent la cueillette, les feuilles passent à la
+      vapeur. Quelques secondes suffisent à stopper l'oxydation et à préserver
+      la couleur vert émeraude. C'est ce geste qui distingue le matcha du thé
+      noir.
+    </p>
+  </section>
+
+  <!-- BROYAGE -->
+  <section class="section section--cream" id="broyage">
+    <p class="section__eyebrow">04 — Le broyage</p>
+    <h2 class="section__title">La pierre<br />et le temps.</h2>
+    <p class="section__text">
+      Les feuilles séchées, appelées tencha, sont broyées à la meule de pierre
+      de granit. Une heure de broyage produit quarante grammes de matcha. La
+      lenteur est le prix de la finesse.
+    </p>
+  </section>
+
+  <!-- RITUEL -->
+  <section class="section section--dark" id="rituel">
+    <p class="section__eyebrow section__eyebrow--light">05 — Le rituel</p>
+    <h2 class="section__title section__title--light">Le chasen<br />et l'eau.</h2>
+    <p class="section__text section__text--light">
+      Deux grammes de matcha, soixante-dix millilitres d'eau à 80°C, un fouet
+      en bambou. Le geste est rapide, en zigzag. La mousse monte, dense,
+      uniforme. Trente secondes de silence.
+    </p>
+  </section>
+
+  <!-- PRODUITS -->
+  <section class="produits" id="produits">
+    <p class="section__eyebrow">06 — Les matchas</p>
+    <h2 class="section__title">Trois jardins,<br />trois expressions.</h2>
+
+    <div class="produits__grid">
+      <article class="produit">
+        <div class="produit__visuel produit__visuel--ceremonial"></div>
+        <div class="produit__num">01</div>
+        <h3>Ceremonial</h3>
+        <p class="produit__origine">Uji, Kyoto · Première récolte</p>
+        <p class="produit__notes">Umami profond, doux, sans amertume</p>
+      </article>
+
+      <article class="produit">
+        <div class="produit__visuel produit__visuel--quotidien"></div>
+        <div class="produit__num">02</div>
+        <h3>Quotidien</h3>
+        <p class="produit__origine">Uji, Kyoto · Récolte d'été</p>
+        <p class="produit__notes">Équilibré, végétal, légèrement amer</p>
+      </article>
+
+      <article class="produit">
+        <div class="produit__visuel produit__visuel--latte"></div>
+        <div class="produit__num">03</div>
+        <h3>Latte</h3>
+        <p class="produit__origine">Uji, Kyoto · Mélange maison</p>
+        <p class="produit__notes">Doux, crémeux, idéal au lait</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CITATION -->
+  <section class="quote">
+    <p class="quote__text">
+      « Ichigo ichie — <em>un instant, une rencontre.</em> »
+    </p>
+    <p class="quote__sub">Principe de la cérémonie du thé japonaise</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__row">
+      <a href="#" class="footer__logo">UJI</a>
+      <p class="footer__copy">© 2025 UJI — Matcha d'Uji, Japon</p>
+    </div>
+  </footer>
+
+  <!-- CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
